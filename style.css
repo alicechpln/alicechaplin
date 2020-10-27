@@ -1,0 +1,230 @@
+.logo-text{
+    font-family: monospace;
+    font-size: 14pt;
+    color: rgb(255, 166, 0);
+}
+
+.logo-text-2{
+    font-family: monospace;
+    font-size: 14pt;
+    color: rgb(255, 102, 0);
+}
+
+#work{
+    font-family: monospace;
+    font-size: 20pt;
+    color: rgb(255, 102, 0);
+    margin-left: 300px
+} 
+
+#about{
+    font-family: monospace;
+    font-size: 20pt;
+    color: rgb(255, 102, 0);
+}
+
+body{
+    height: 1550px;
+}
+
+#container{
+    height: 550px;
+    width: 550px;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    width: 100%;
+    height: 350px;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center; 
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 35px;
+}
+
+.scroll{
+    position: relative;
+    margin-top: 400px;
+    height: 10px;
+}
+
+
+
+.boxes {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+  
+}
+
+.boxes-straight {
+    position: absolute;
+    margin-top: 150px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#box01{
+    margin-top: 50px;
+    margin-left: 0px;
+    
+}
+
+#box02{
+    margin-top: 100px;
+    margin-left: 50px; 
+      
+}
+
+#box03{
+    margin-top: 150px;
+    margin-left: 100px;
+    
+}
+#box04{
+    margin-top: 200px;
+    margin-left: 150px;
+    
+}
+
+#box05{
+    margin-top: 250px;
+    margin-left: 200px;
+    
+}
+
+#box06{
+    margin-top: 200px;
+    margin-left: 250px;
+    
+}
+
+#box07{
+    margin-top: 150px;
+    margin-left: 300px;
+    
+}
+
+#box08{
+    margin-top: 100px;
+    margin-left: 350px;
+    
+}
+#box09{
+    margin-top: 150px;
+    margin-left: 400px;
+    
+}
+
+#box10{
+    margin-top: 200px;
+    margin-left: 450px;
+    
+}
+
+#box11{
+    margin-top: 250px;
+    margin-left: 500px;
+    
+}
+
+#box12{
+    margin-left: 0px;    
+}
+
+#box13{
+    margin-left: 50px;    
+}
+
+#box14{
+    margin-left: 100px;    
+}
+
+#box15{
+    margin-left: 150px;    
+}
+
+#box16{
+    margin-left: 200px;    
+}
+
+#box17{
+    margin-left: 250px;    
+}
+
+#box18{
+    margin-left: 300px;    
+}
+
+#box19{
+    margin-left: 350px;    
+}
+
+#box20{
+    margin-left: 400px;    
+}
+
+#box21{
+    margin-left: 450px;    
+}
+
+#box22{
+    margin-left: 500px;    
+}
+
+
+nav{
+    position: absolute;
+    margin-left: 19vw;
+    font-size: 25pt;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    margin-top: 60px;
+    width: 97vw;
+    margin: auto;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+
+#container-image1{
+    width: 20vw;
+    display: flex;
+    height: 28vh;
+    margin-right: 10px;
+}
+
+#container-image2{
+    width: 55vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+#container-image3{
+    width: 20vw;
+    height: 28vh;
+    display: flex;
+    margin-top: 338px;
+    margin-left: 10px;
+}
+
+#first-project {
+    display: flex;
+    flex-direction: row;
+}
