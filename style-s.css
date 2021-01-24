@@ -1,0 +1,320 @@
+body{ 
+    background-color: rgb(255, 255, 255);
+    
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    width: 94vw;
+    height: auto;
+    margin: auto;
+    
+}
+
+p.writing{
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+#publications{
+    padding-top: 2vh;
+}
+
+.title{
+    font-weight: 600;
+}
+
+#work{
+    display:none;
+}
+
+#paintings{
+    margin-left: 10px;
+    font-weight: normal;
+}
+
+#drawings{
+    margin-left: 10px;
+    font-weight: normal;
+}
+
+#about{
+    margin-left: 10px;
+}
+
+#text{
+    margin-left: 10px;
+}
+
+#about-container{
+    width: 90%;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding-left: 2vw;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rgb(182, 88, 0);
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding-top: 3%;
+}
+
+a.publications{
+    text-decoration: none;
+    color: black;
+}
+
+#nav-container{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    width: 320px;
+    margin-top: 40px;
+    margin-left: 3%;
+}
+
+.nav-text{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    
+    
+}
+
+h1{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 0 ;
+}
+
+p.caption{ 
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+}
+
+#img-1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+}
+
+#img-1-cont{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+
+#img-2{
+    padding-top: 5%;
+    width: 95%;
+    margin: auto;
+}
+
+#img-3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding-top: 9%;
+}
+
+#img-3-cont{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+
+#img-4-5{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+}
+
+#img-4-cont{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+}
+
+#img-5-cont{
+    display: none;
+}
+
+#img-6-7{
+    padding-top: 5%;
+    width: 100%;
+}
+#img-6-cont{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+}
+
+#img-7-cont{
+    display: none;
+}
+
+
+
+#img-8{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+}
+
+#img-8-cont{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+
+#img-9{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+}
+
+#img-9-cont{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+
+
+
+#img-10-11{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    width: 100%;
+
+}
+
+#img-10-cont{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+}
+
+#img-11-cont{
+    display: none;
+}
+
+
+#img-12-13{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+}
+
+#img-12-cont{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;    
+}
+
+#img-13-cont{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    padding-top: 5%;
+    margin: auto;
+}
+
+
+#img-14-15{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+}
+
+#img-14-cont{
+    display: flex;
+    flex-direction: column;
+    width: 95%;  
+    margin: auto;  
+}
+
+#img-15-cont{
+    display: flex;
+    flex-direction: column;
+    width: 95%;  
+    padding-top: 5%; 
+    margin: auto;
+}
+
+#img-16-17{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+
+}
+
+#img-16-cont{
+    display: flex;
+    flex-direction: column;
+    width: 95%;  
+    margin: auto;  
+}
+
+#img-17-cont{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    width: 95%;  
+    margin: auto; 
+    margin-bottom: 5%;
+}
+
+.modal {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: -5px;
+    width: 100vw; 
+    height: 115vh;    
+  }
+
+  .modal-content {
+display: none;  
+}
+
+
+
+#drawing-container{
+    padding-top: 20px;
+    width: 90vw;
+    margin:auto;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-column-gap: 3vw;
+    grid-row-gap: 3vh;    
+    align-items: end;
+
+}
